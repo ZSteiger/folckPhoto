@@ -1,3 +1,3 @@
 # Folck Photo
 
-Frontend for Folck Photography
+Repository for Bruce Folck Photography

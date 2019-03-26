@@ -51,7 +51,6 @@
       "<rootDir>/node_modules/"
     ],
     "transform": {
-      "\\.(gql|graphql)$": "jest-transform-graphql",
       ".*": "babel-jest"
     }
   },
@@ -73,12 +72,7 @@
       },
       "production": {
         "presets": [
-          "next/babel",
-          {
-            "preset-env": {
-              "modules": "commonjs"
-            }
-          }
+          "next/babel"
         ],
         "plugins": [
           [
