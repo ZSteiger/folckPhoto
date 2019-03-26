@@ -1,0 +1,47 @@
+import styled from 'styled-components';
+
+/* TODO: Style buttons better on large nav with animation */
+
+const StyledNav = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 75%;
+  & > * {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2.5rem;
+    background: ${props => props.theme.black};
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  @media (max-width: 1000px) {
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+    .aboutLink {
+      padding: 5px 25px;
+    }
+  }
+`;
+
+const GalleryNav = styled.div`
+  margin: 0 0 20px 0;
+  .gallerySpan {
+    background: ${props => props.theme.lightGray};
+  }
+  @media (max-width: 1000px) {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    max-width: 475px;
+    *,
+    & + * {
+      padding: 0.4rem;
+    }
+  }
+`;
+
+export { StyledNav, GalleryNav };
