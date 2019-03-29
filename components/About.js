@@ -16,6 +16,9 @@ const AboutDiv = styled.div`
     font-size: 1.5rem;
     text-align: center;
   }
+  @media (max-width: 1200px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const Blurb = styled.div`

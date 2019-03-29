@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import Nav from './Nav';
 import { StyledHeader, Banner } from './styles/HeaderStyles';
 import Router from 'next/router';
+import Link from 'next/link';
 import NProgress from 'nprogress';
 
 Router.onRouteChangeStart = () => {
@@ -18,9 +19,11 @@ Router.onRouteChangeError = () => {
 
 const Header = () => (
   <StyledHeader>
-    <Banner>
-      Bruce Folck <br /> Photography
-    </Banner>
+    <Link href="/">
+      <Banner>
+        Bruce Folck <br /> Photography
+      </Banner>
+    </Link>
     <Nav />
   </StyledHeader>
 );

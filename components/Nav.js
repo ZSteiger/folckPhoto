@@ -4,7 +4,9 @@ import { StyledNav, GalleryNav } from './styles/NavStyles';
 const Nav = () => (
   <StyledNav>
     <GalleryNav>
-      <span className="gallerySpan">Gallery</span>
+      <Link href="/">
+        <span className="gallerySpan">Gallery</span>
+      </Link>
       <Link href="/bhutan">
         <a>Bhutan</a>
       </Link>

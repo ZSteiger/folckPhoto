@@ -20,6 +20,7 @@ const Banner = styled.div`
   font-size: 3rem;
   margin: 25px;
   padding: 20px;
+  cursor: pointer;
 
   @media (max-width: 1000px) {
     justify-self: flex-start;
