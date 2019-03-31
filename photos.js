@@ -343,14 +343,14 @@ const columbariumPhotos = [
   },
   {
     src:
-      'https://res.cloudinary.com/steiger/image/upload/q_auto:eco/v1551134594/Folck%20Photo/Columbarium/A_Wait_and_a_Weight_of_Ages.jpg',
+      'https://res.cloudinary.com/steiger/image/upload/q_auto:eco/v1551134594/Folck%20Photo/Columbarium/Only_Begotten_Daughter.jpg',
     width: 32,
     height: 49,
     alt: ''
   },
   {
     src:
-      'https://res.cloudinary.com/steiger/image/upload/q_auto:eco/v1551134594/Folck%20Photo/Columbarium/Only_Begotten_Daughter.jpg',
+      'https://res.cloudinary.com/steiger/image/upload/q_auto:eco/v1551134594/Folck%20Photo/Columbarium/A_Wait_and_a_Weight_of_Ages.jpg',
     width: 32,
     height: 49,
     alt: ''
