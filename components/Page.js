@@ -3,6 +3,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import Header from './Header';
 import Meta from './Meta';
 import GlobalStyles from './styles/GlobalStyles';
+import Error from './_error';
 
 const darkTheme = {
   black: '#111111',
