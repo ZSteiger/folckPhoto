@@ -4,7 +4,8 @@ import styled from 'styled-components';
 
 const ErrorDiv = styled.div`
   margin: 0 2em;
-  p {
+  p,
+  a {
     font-size: 1.25em;
   }
 `;
