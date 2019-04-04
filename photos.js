@@ -207,17 +207,17 @@ const studioPhotos = [
   },
   {
     src:
-      'https://res.cloudinary.com/steiger/image/upload/q_auto:eco/v1551217520/Folck%20Photo/Studio/Rachel_with_Hair_History.jpg',
-    width: 20,
-    height: 14,
-    alt: 'Rachel, With Hair + History'
-  },
-  {
-    src:
       'https://res.cloudinary.com/steiger/image/upload/q_auto:eco/v1551217520/Folck%20Photo/Studio/Trisha_on_Black_Couch.jpg',
     width: 10,
     height: 8,
     alt: 'Trisha, on Black Couch'
+  },
+  {
+    src:
+      'https://res.cloudinary.com/steiger/image/upload/q_auto:eco/v1551217520/Folck%20Photo/Studio/Rachel_with_Hair_History.jpg',
+    width: 20,
+    height: 14,
+    alt: 'Rachel, With Hair + History'
   },
   {
     src:
