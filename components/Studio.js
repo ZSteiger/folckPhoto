@@ -11,7 +11,7 @@ class Studio extends Component {
         <GalleryHeader>
           <span>Studio</span>
         </GalleryHeader>
-        <Gallery photos={studioPhotos} margin={15} />
+        <Gallery photos={studioPhotos} margin={15} role="img" />
       </StyledGallery>
     );
   }

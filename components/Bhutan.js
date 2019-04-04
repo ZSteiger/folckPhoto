@@ -12,7 +12,7 @@ class Bhutan extends Component {
           <span>Bhutan</span>
           <span>2015</span>
         </GalleryHeader>
-        <Gallery photos={bhutanPhotos} margin={15} />
+        <Gallery photos={bhutanPhotos} margin={15} role="img" />
       </StyledGallery>
     );
   }

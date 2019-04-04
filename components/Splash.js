@@ -31,9 +31,10 @@ const SplashContainer = styled.div`
 class Splash extends Component {
   render() {
     return (
-      <SplashContainer>
+      <SplashContainer role="main">
         <SplashImage
-          src="static/Clay waterfall.jpg"
+          role="img"
+          src="static/Clay_waterfall.jpg"
           alt="Clay Waterfall Splash"
         />
         <Welcome>

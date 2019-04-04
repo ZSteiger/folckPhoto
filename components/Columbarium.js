@@ -12,7 +12,7 @@ class Columbarium extends Component {
           <span>Columbarium</span>
           <span>2017 / 2018</span>
         </GalleryHeader>
-        <Gallery photos={columbariumPhotos} margin={15} />
+        <Gallery photos={columbariumPhotos} margin={15} role="img" />
       </StyledGallery>
     );
   }

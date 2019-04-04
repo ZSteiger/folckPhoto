@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { StyledNav, GalleryNav } from './styles/NavStyles';
 
 const Nav = () => (
-  <StyledNav>
+  <StyledNav role="navigation">
     <GalleryNav>
       <Link href="/">
         <span className="gallerySpan">Gallery</span>
