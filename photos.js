@@ -358,17 +358,17 @@ const columbariumPhotos = [
 
   {
     src:
-      'https://res.cloudinary.com/steiger/image/upload/q_auto:eco/v1551134594/Folck%20Photo/Columbarium/Chapel_of_Rest_II.jpg',
-    width: 42,
-    height: 53,
-    alt: 'Chapel of Rest (II)'
-  },
-  {
-    src:
       'https://res.cloudinary.com/steiger/image/upload/q_auto:eco/v1551134594/Folck%20Photo/Columbarium/Flora_Providence_I.jpg',
     width: 29,
     height: 45,
     alt: 'Flora, Providence (I)'
+  },
+  {
+    src:
+      'https://res.cloudinary.com/steiger/image/upload/q_auto:eco/v1551134594/Folck%20Photo/Columbarium/Chapel_of_Rest_II.jpg',
+    width: 42,
+    height: 53,
+    alt: 'Chapel of Rest (II)'
   },
   {
     src:
