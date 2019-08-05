@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
   }
   html {
     box-sizing: border-box;
+    background: linear-gradient(180deg, #0D0221 0%, #241734 100%);
     font-size: 10px;
     font-family: 'CGaramund';
   }

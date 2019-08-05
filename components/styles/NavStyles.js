@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 /* TODO: Style buttons better on large nav with animation */
 
@@ -7,6 +7,14 @@ const StyledNav = styled.div`
   flex-direction: column;
   margin: 0 auto;
   width: 75%;
+  a {
+    text-shadow: default;
+    transition: all 0.2s ease-in;
+  }
+  a:hover {
+    text-shadow: 0 0 16px white;
+    transition: all 0.2s ease-in;
+  }
   & > * {
     display: flex;
     flex-direction: column;
