@@ -42,7 +42,7 @@ class About extends Component {
             modeling,{' '}
             <a href="mailto:bff_bluedragon@hotmail.com">please contact me.</a>
           </p>
-          <a href="https://www.flickr.com/photos/folckphoto/">Flickr</a>
+          <a href="https://www.flickr.com/photos/69189093@N07/albums">Flickr</a>
         </Blurb>
         <img src="../static/Bruce.jpg" alt="Bruce's Headshot" />
         <span>
