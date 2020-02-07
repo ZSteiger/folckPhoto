@@ -36,11 +36,19 @@ class About extends Component {
     return (
       <AboutDiv>
         <Blurb>
-          <p>I am a freelance photographer based out of Oakland, CA. </p>
           <p>
-            If you are interested in ordering prints, hiring my services, or
-            modeling,{' '}
-            <a href="mailto:bff_bluedragon@hotmail.com">please contact me.</a>
+            Bruce Folck is based in Oakland, California and has been taking
+            photographs all of his life. He regularly shows his work at the
+            Photo Central Gallery in Hayward.
+          </p>
+          <p>
+            He proclaims he is stubborn in his continued use of film, and he
+            prints his black and white images in the darkroom using traditional
+            chemicals.
+          </p>
+          <p>
+            Featured here are selections ranging from his time spent in Bhutan
+            to a variety of studio works.
           </p>
           <a href="https://www.flickr.com/photos/69189093@N07/albums">Flickr</a>
         </Blurb>
