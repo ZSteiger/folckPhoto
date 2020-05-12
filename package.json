@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/ZSteiger/folckphoto#readme",
   "dependencies": {
-    "acorn": "^6.1.1",
+    "acorn": "^6.4.1",
     "babel-core": "^6.26.3",
     "babel-plugin-styled-components": "^1.10.0",
     "enzyme": "^3.9.0",
