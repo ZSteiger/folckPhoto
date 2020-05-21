@@ -27,10 +27,10 @@ const Nav = () => (
     <IconContainer>
       <div className="linksContainer">
         <a href="https://www.instagram.com/folckphoto/">
-         <img src="/InstagramLogo.png" alt="Instagram Logo"/>
+         <img src="/instagramLogo.png" alt="Instagram Logo"/>
         </a>
         <a href="https://www.flickr.com/photos/69189093@N07/albums">
-         <img src="/FlickrLogo.png" alt="Flickr Logo"/>
+         <img src="/flickrLogo.png" alt="Flickr Logo"/>
         </a>
       </div>
     </IconContainer>
