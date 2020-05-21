@@ -1,4 +1,4 @@
-import Bhutan from '../components/Bhutan';
+import { Bhutan } from '../components/Bhutan';
 
 const Home = () => {
   return <Bhutan />;

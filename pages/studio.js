@@ -1,4 +1,4 @@
-import Studio from '../components/Studio';
+import {Studio} from '../components/Studio';
 
 const Home = () => {
   return <Studio />;

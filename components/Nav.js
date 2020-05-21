@@ -1,8 +1,6 @@
 import Link from 'next/link';
 import { StyledNav, GalleryNav, IconContainer } from './styles/NavStyles';
 
-
-
 const Nav = () => (
   <StyledNav role="navigation">
     <GalleryNav>
