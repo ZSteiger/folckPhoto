@@ -6,14 +6,13 @@ import { bhutanPhotos } from '../photos';
 
 
 export const Bhutan = () => {
-
     return (
       <StyledGallery>
         <GalleryHeader>
           <span>Bhutan</span>
           <span>2015</span>
         </GalleryHeader>
-        <Gallery photos={bhutanPhotos} margin={15} role="img" />
+        <Gallery photos={bhutanPhotos} margin={15} role="img" onClick={openLightbox} />
       </StyledGallery>
     );
   }
