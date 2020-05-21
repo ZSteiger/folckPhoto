@@ -1,4 +1,4 @@
-import Columbarium from '../components/Columbarium';
+import {Columbarium} from '../components/Columbarium';
 
 const Home = () => {
   return <Columbarium />;
