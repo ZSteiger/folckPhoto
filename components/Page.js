@@ -29,14 +29,12 @@ class Page extends Component {
   render() {
     return (
       <ThemeProvider theme={darkTheme}>
-        <>
           <GlobalStyles />
           <Meta />
           <Inner>
             <Header />
             {this.props.children}
           </Inner>
-        </>
       </ThemeProvider>
     );
   }

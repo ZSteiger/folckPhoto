@@ -34,7 +34,7 @@ class Splash extends Component {
       <SplashContainer role="main">
         <SplashImage
           role="img"
-          src="static/Clay_waterfall.jpg"
+          src="/Clay_waterfall.jpg"
           alt="Clay Waterfall Splash"
         />
         <Welcome>

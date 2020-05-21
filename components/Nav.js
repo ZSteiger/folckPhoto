@@ -1,5 +1,7 @@
 import Link from 'next/link';
-import { StyledNav, GalleryNav } from './styles/NavStyles';
+import { StyledNav, GalleryNav, IconContainer } from './styles/NavStyles';
+
+
 
 const Nav = () => (
   <StyledNav role="navigation">
@@ -21,6 +23,17 @@ const Nav = () => (
     <Link href="/about">
       <a className="aboutLink">About</a>
     </Link>
+
+    <IconContainer>
+      <div className="linksContainer">
+        <a href="https://www.instagram.com/folckphoto/">
+         <img src="/InstagramLogo.png" alt="Instagram Logo"/>
+        </a>
+        <a href="https://www.flickr.com/photos/69189093@N07/albums">
+         <img src="/FlickrLogo.png" alt="Flickr Logo"/>
+        </a>
+      </div>
+    </IconContainer>
   </StyledNav>
 );
 

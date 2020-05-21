@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'CGaramund';
-    src: url("../static/CormorantGaramond-Regular.ttf") format('truetype');
+    src: url("/CormorantGaramond-Regular.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
   }
