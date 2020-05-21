@@ -4,8 +4,9 @@ import styled from 'styled-components';
 import { StyledGallery, GalleryHeader } from './styles/GalleryStyles';
 import { bhutanPhotos } from '../photos';
 
-class Bhutan extends Component {
-  render() {
+
+export const Bhutan = () => {
+
     return (
       <StyledGallery>
         <GalleryHeader>
@@ -16,6 +17,3 @@ class Bhutan extends Component {
       </StyledGallery>
     );
   }
-}
-
-export default Bhutan;
