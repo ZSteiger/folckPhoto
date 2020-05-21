@@ -51,8 +51,9 @@ class About extends Component {
             to a variety of studio works.
           </p>
           <a href="https://www.flickr.com/photos/69189093@N07/albums">Flickr</a>
+          <a href="https://www.instagram.com/folckphoto/">Instagram</a>
         </Blurb>
-        <img src="../static/Bruce.jpg" alt="Bruce's Headshot" />
+        <img src="/Bruce.jpg" alt="Bruce's Headshot" />
         <span>
           All Images Strictly Copyrighted by Bruce Folck, and may not be copied
           or reproduced in any way without the express permission of the

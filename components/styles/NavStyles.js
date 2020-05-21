@@ -53,4 +53,22 @@ const GalleryNav = styled.div`
   }
 `;
 
-export { StyledNav, GalleryNav };
+const IconContainer = styled.div`
+  background: none;
+  border: none;
+  
+  .linksContainer {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  
+}
+  a {
+    img {
+      width: 10rem;
+      padding: 2rem;
+    }
+  }
+`
+
+export { StyledNav, GalleryNav, IconContainer };
