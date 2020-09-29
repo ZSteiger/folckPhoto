@@ -7,15 +7,24 @@ const SplashImage = styled.img`
 
 const Welcome = styled.div`
   background: ${props => props.theme.black};
-  padding: 0 10px;
   position: absolute;
+  padding: 2rem 3rem;
   top: 4%;
   right: 10%;
   text-align: center;
   font-size: 1.5em;
   line-height: initial;
   border: 1px solid ${props => props.theme.white};
-
+  p {
+    border-bottom: .5px solid ${props => props.theme.white};
+    margin-block-start: initial;
+    margin-block-end: initial;
+    padding-bottom: 1rem;
+  }
+  sub {
+    padding-bottom: 5px;
+    line-height: .2rem;
+  }
   @media (max-width: 1500px) {
     font-size: 1em;
   }
@@ -41,6 +50,13 @@ class Splash extends Component {
           <p>
             Welcome to Folck Photo, <br /> Please Select a Gallery
           </p>
+          <sub>
+          Bruce is on display at: <br />
+          Art Truckee Gallery <br />
+          10072 Donner Pass Rd / 2nd floor <br /> 
+          Truckee, CA  96161 <br />
+          October 2020 - February 2021 
+          </sub>
         </Welcome>
       </SplashContainer>
     );
