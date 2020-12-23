@@ -1,6 +1,5 @@
 import React, { useState, useCallback } from 'react';
 import Gallery from 'react-photo-gallery';
-import styled from 'styled-components';
 import { StyledGallery, GalleryHeader } from './styles/GalleryStyles';
 import Carousel, { Modal, ModalGateway } from "react-images";
 
@@ -11,7 +10,7 @@ export const Studio = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [modalOpen, setModalOpen] = useState(false);
 
-  const openModal = useCallback((e, { photo, index }) => {
+  const openModal = useCallback(({ index }) => {
     setCurrentImage(index);
     setModalOpen(true);
   }, []);
