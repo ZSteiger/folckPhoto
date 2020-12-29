@@ -38,7 +38,7 @@ const GalleryNav = styled.div`
   margin: 0 0 20px 0;
   .gallerySpan {
     background: ${props => props.theme.lightGray};
-    cursor: pointer;
+    pointer-events: none;
   }
   @media (max-width: 1000px) {
     flex-direction: row;

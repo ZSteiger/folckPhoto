@@ -4,9 +4,7 @@ import { StyledNav, GalleryNav, IconContainer } from './styles/NavStyles';
 const Nav = () => (
   <StyledNav role="navigation">
     <GalleryNav>
-      <Link href="/">
-        <span className="gallerySpan">Gallery</span>
-      </Link>
+        <span className="gallerySpan">Galleries</span>
       <Link href="/bhutan">
         <a>Bhutan</a>
       </Link>
