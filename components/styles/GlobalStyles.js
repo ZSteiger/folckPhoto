@@ -6,6 +6,7 @@ const GlobalStyles = createGlobalStyle`
     src: url("/CormorantGaramond-Regular.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
   }
   html {
     box-sizing: border-box;
