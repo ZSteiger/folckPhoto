@@ -7,7 +7,6 @@
     "dev": "next -p 7777",
     "build": "next build && next export",
     "start": "next start -p $PORT",
-    "postbuild": "next-on-netlify",
     "test": "SET NODE_ENV=test&& jest --watch"
   },
   "repository": {
@@ -40,21 +39,9 @@
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^1.1.5",
-    "babel-jest": "^26.6.3",
     "babel-plugin-module-resolver": "^4.1.0",
     "casual": "^1.6.0",
-    "enzyme-to-json": "^3.3.5",
-    "jest": "^26.6.3"
-  },
-  "jest": {
-    "setupTestFrameworkScriptFile": "<rootDir>/jest.setup.js",
-    "testPathIgnorePatterns": [
-      "<rootDir>/.next/",
-      "<rootDir>/node_modules/"
-    ],
-    "transform": {
-      ".*": "babel-jest"
-    }
+    "enzyme-to-json": "^3.3.5"
   },
   "babel": {
     "env": {
