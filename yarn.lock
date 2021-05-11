@@ -851,6 +851,18 @@
     "@babel/runtime" "^7.7.2"
     regenerator-runtime "^0.13.3"
 
+"@netlify/plugin-nextjs@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-1.1.5.tgz#d48310ec44360f610ba58caf3f243e9739216607"
+  integrity sha512-Z4PZrctCCtSFRgka9ssrX0iLG7mlYr3fouzQmht4XOjdLtRNE+MeLRVPnJzgWgTGnuZdRqiJGaNdFoHOYWtZ0g==
+  dependencies:
+    chalk "^4.1.0"
+    find-up "^4.1.0"
+    jimp "^0.16.1"
+    make-dir "^3.1.0"
+    next-on-netlify "3.0.1"
+    semver "^7.3.2"
+
 "@next/env@10.2.0":
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-10.2.0.tgz#154dbce2efa3ad067ebd20b7d0aa9aed775e7c97"
@@ -1853,7 +1865,7 @@ chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^4.0.0:
+chalk@^4.0.0, chalk@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
   integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
@@ -4418,7 +4430,7 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-make-dir@^3.0.0, make-dir@^3.0.2:
+make-dir@^3.0.0, make-dir@^3.0.2, make-dir@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-3.1.0.tgz#415e967046b3a7f1d185277d84aa58203726a13f"
   integrity sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==
@@ -4638,7 +4650,7 @@ nearley@^2.7.10:
     railroad-diagrams "^1.0.0"
     randexp "0.4.6"
 
-next-on-netlify@^3.0.1:
+next-on-netlify@3.0.1, next-on-netlify@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/next-on-netlify/-/next-on-netlify-3.0.1.tgz#3607ab367c3fb3bfc7fd502e865c1ea12f7417c6"
   integrity sha512-4tE37M97xUg27eKvxwDvi5wq7m8l9lxBj8/xyeHcasosp6RMSn+8vjZRL8NJi/POEczbPKfEv5DUyI3RJF2hhQ==
