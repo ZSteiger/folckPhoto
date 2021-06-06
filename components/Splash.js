@@ -24,6 +24,9 @@ const Welcome = styled.div`
   sub {
     padding-bottom: 5px;
     line-height: .2rem;
+    a {
+      text-decoration: underline;
+    }
   }
   @media (max-width: 1500px) {
     font-size: 1em;
@@ -51,11 +54,9 @@ class Splash extends Component {
             Welcome to Folck Photo, <br /> Please Select a Gallery
           </p>
           <sub>
-          Bruce is on display at: <br />
-          Art Truckee Gallery <br />
-          10072 Donner Pass Rd / 2nd floor <br /> 
-          Truckee, CA  96161 <br />
-          October 2020 - February 2021 
+          For business inquiries, <br />
+          email Bruce at <br />
+          <a href="mailto:bruce@folckphoto.com">bruce@folckphoto.com</a> 
           </sub>
         </Welcome>
       </SplashContainer>
